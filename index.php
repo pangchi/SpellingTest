@@ -181,18 +181,30 @@ function overlay() {
 //check function
 function check() {
 
+	var score = 0;
+	
 	for (i = 0; i < wordList.length; i++) {
-		var youranswer = document.getElementById('answer' + i).value.toLowerCase();
+		var youranswer = document.getElementById('answer' + i).value.toLowerCase().trim();
 		var teacheranswer = wordList[i].toLowerCase();
 		if (youranswer == "") {
 			document.getElementById('check' + i).innerHTML = '';
 		} 
 		else if ( youranswer == teacheranswer) {
 			document.getElementById('check' + i).innerHTML = '<strong style="color:green">&#x2714;</strong>';
-		} else { document.getElementById('check' + i).innerHTML = '<strong style="color:red">&#x2718;</strong>';}
+			score++;
+		} else { 
+		document.getElementById('check' + i).innerHTML = '<strong style="color:red">&#x2718;</strong>';
+		}
 	}
 	
-	document.getElementById('showanswer').style.display = 'inline';
+	if (score ==  wordList.length) {
+		document.getElementById('startover').style.display = 'inline';
+		document.getElementById('check').style.display = 'none';
+		document.getElementById('showanswer').style.display = 'none';
+	}
+	else {
+		document.getElementById('showanswer').style.display = 'inline';
+	}
 }
 
 function showanswer() {
@@ -312,6 +324,10 @@ A.startover:active {text-decoration: none; background-color: gray; color: white;
 	<a href="javascript:check();" class="check"><STRONG id="check">CHECK<STRONG></a>&nbsp;&nbsp;
 	<a href="javascript:showanswer();" class="showanswer"><STRONG id="showanswer">SHOW ANSWER</STRONG></a>&nbsp;&nbsp;
 	</h2>
+	
+	<p>
+	Build 2017-03-02
+	</p>
 </div>
 </div>
 </body>
