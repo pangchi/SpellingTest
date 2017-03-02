@@ -1,0 +1,10 @@
+ant
+bee
+car
+duck
+elephant
+fish
+goat
+horse
+jungle
+king
