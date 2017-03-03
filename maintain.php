@@ -120,7 +120,7 @@ A.commit:active {text-decoration: none; background-color: green; color: white;}
 	
 	<H2>
 		<a href="javascript:startover();" class="startover"><STRONG id="startover">START OVER</STRONG></a>&nbsp;&nbsp;
-		<a href="javascript:commit();" class="commit"><STRONG id="check">COMMIT<STRONG></a>
+		<a href="javascript:commit();" class="commit"><STRONG id="check">COMMIT CHANGE<STRONG></a>
 	</H2>
 
 	<p><SPAN id="filestate">NOT SAVED</SPAN></p>
