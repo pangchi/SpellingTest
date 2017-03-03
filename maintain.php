@@ -124,6 +124,8 @@ A.commit:active {text-decoration: none; background-color: green; color: white;}
 	</H2>
 
 	<p><SPAN id="filestate">NOT SAVED</SPAN></p>
+	
+	<p>BUILD 2017-03-03</p>
 </div>	
 </body>
 </HTML>

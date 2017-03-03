@@ -185,9 +185,7 @@ A.startover:active {text-decoration: none; background-color: gray; color: white;
 	<a href="javascript:showanswer();" class="showanswer"><STRONG id="showanswer">SHOW ANSWER</STRONG></a>&nbsp;&nbsp;
 	</h2>
 	
-	<p>
-	Build 2017-03-02
-	</p>
+	<p>BUILD 2017-03-03</p>
 </div>
 </div>
 </body>
