@@ -1,0 +1,5 @@
+<?php
+
+	$wordfile = 'word.txt';
+	
+	?>
