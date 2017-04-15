@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<HTML>
+<HTML lang="en-GB">
 <head>
     
   <title>Spelling Test</title>
@@ -164,7 +164,7 @@ A.startover:active {text-decoration: none; background-color: gray; color: white;
 			echo "<source src=\"" . $src . "\" type=\"audio/" . $srctype . "\">";
 			echo "</audio></TD>";
 			
-			echo "<TD><input type=\"text\" name=\"answer" . $i . "\" id = \"answer" . $i . "\"></TD>";
+			echo "<TD><input type=\"text\" size=\"40\" name=\"answer" . $i . "\" id = \"answer" . $i . "\"></TD>";
 			
 			echo "<TD><SPAN id=\"check" . $i . "\"></SPAN></TD>";
 			
@@ -185,7 +185,7 @@ A.startover:active {text-decoration: none; background-color: gray; color: white;
 	<a href="javascript:showanswer();" class="showanswer"><STRONG id="showanswer">SHOW ANSWER</STRONG></a>&nbsp;&nbsp;
 	</h2>
 	
-	<p>BUILD 2017-03-03</p>
+	<p>BUILD 2017-04-16</p>
 </div>
 </div>
 </body>

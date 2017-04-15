@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<HTML>
+<HTML lang="en-GB">
 <head>
 
   <title>Spelling Test - Maintain</title>
@@ -109,7 +109,7 @@ A.commit:active {text-decoration: none; background-color: green; color: white;}
 				else
 				{
 					
-				echo "<TD><input type=\"text\" name=\"word" . $i . "\" id=\"word" . $i . "\" value=\"" . $wordList[$i] . "\"></TD>";
+				echo "<TD><input type=\"text\" size=\"40\" name=\"word" . $i . "\" id=\"word" . $i . "\" value=\"" . $wordList[$i] . "\"></TD>";
 				}	
 				
 				echo "</TR>";
