@@ -164,7 +164,7 @@ A.startover:active {text-decoration: none; background-color: gray; color: white;
 			echo "<source src=\"" . $src . "\" type=\"audio/" . $srctype . "\">";
 			echo "</audio></TD>";
 			
-			echo "<TD><input type=\"text\" size=\"60\" name=\"answer" . $i . "\" id = \"answer" . $i . "\"></TD>";
+			echo "<TD><input type=\"text\" size=\"50\" name=\"answer" . $i . "\" id = \"answer" . $i . "\"></TD>";
 			
 			echo "<TD><SPAN id=\"check" . $i . "\"></SPAN></TD>";
 			
