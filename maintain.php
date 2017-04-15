@@ -104,7 +104,7 @@ A.commit:active {text-decoration: none; background-color: green; color: white;}
 				echo "<TD>". $j ."</TD>";
 
 				if (!isset($wordList[$i])) {
-					echo "<TD><input type=\"text\" name=\"word" . $i . "\" id=\"word" . $i . "\" value=\"\"></TD>";		
+					echo "<TD><input type=\"text\" size=\"40\" name=\"word" . $i . "\" id=\"word" . $i . "\" value=\"\"></TD>";		
 				}
 				else
 				{
@@ -125,7 +125,7 @@ A.commit:active {text-decoration: none; background-color: green; color: white;}
 
 	<p><SPAN id="filestate">NOT SAVED</SPAN></p>
 	
-	<p>BUILD 2017-03-03</p>
+	<p>BUILD 2017-04-15</p>
 </div>	
 </body>
 </HTML>
