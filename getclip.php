@@ -69,12 +69,10 @@ function prepareClips($w) {
 		$result = '';
 		$AccessTokenUri = "https://api.cognitive.microsoft.com/sts/v1.0/issueToken";
 	
-		//Key 1:7d7dea02dfd5426db23dcba72439ce61 Regenerate | Hide | Copy	
-		//Key 2:90ad2b03b32d42ab87cf7f053cfcc5e2 Regenerate | Hide | Copy		
 		// Note: The way to get api key:
 		// Free: https://www.microsoft.com/cognitive-services/en-us/subscriptions?productId=/products/Bing.Speech.Preview
 		// Paid: https://portal.azure.com/#create/Microsoft.CognitiveServices/apitype/Bing.Speech/pricingtier/S0
-		$apiKey = '7d7dea02dfd5426db23dcba72439ce61'; //"Your api key goes here";
+		$apiKey = 'xxx'; //"Your api key goes here";
 		$ttsHost = 'https://speech.platform.bing.com/synthesize';
 		// use key 'http' even if you send the request to https://...
 		$options = array(
