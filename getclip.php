@@ -37,8 +37,8 @@ function prepareClips($w) {
    
    function getWordfromWatson($w) {
 		$ch = curl_init();
-		$username = '5f361d6c-8379-4f6e-9d51-2ae1ac6b720a';
-		$password = '6uMGfeRvaUCz';
+		$username = 'xxx';
+		$password = 'xxx';
 		
 		// HTTP GET, non-alphanumeric must be formatted
 		// Replace the non-alphanumeric characters 	
